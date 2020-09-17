@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "cross-border-portal",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "ant-design-vue": "^2.0.0-beta.9",
     "core-js": "^3.6.5",
     "vue": "^3.0.0-0",
     "vue-class-component": "^8.0.0-0",
@@ -16,6 +17,7 @@
     "vuex": "^4.0.0-0"
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.11.5",
     "@types/jest": "^24.0.19",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",
@@ -29,8 +31,12 @@
     "@vue/compiler-sfc": "^3.0.0-0",
     "@vue/eslint-config-typescript": "^5.0.2",
     "@vue/test-utils": "^2.0.0-0",
+    "babel-plugin-dynamic-import-node": "^2.3.3",
+    "babel-plugin-import": "^1.13.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
+    "less": "^3.12.2",
+    "less-loader": "^7.0.1",
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0"
   },
